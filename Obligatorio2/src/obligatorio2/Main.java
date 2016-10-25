@@ -5,6 +5,8 @@
  */
 package obligatorio2;
 
+import Interfaz.VentanaPrincipal;
+
 /**
  *
  * @author Usuario
@@ -16,6 +18,9 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Sistema s = new Sistema();
+        VentanaPrincipal vp = new VentanaPrincipal(s);
+        vp.setVisible(true);
     }
     
 }
